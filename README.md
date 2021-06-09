@@ -1,5 +1,7 @@
 # Human-Skin-tone-Dectection. 
 We team of web developers and Machine learning enthusiasts developed a website which gives the skin-tone category of uploaded image.  
+  
+## Manual for running project code on your system:-  
 Installation of packages/libraries:  
 1. For back-end part  
 • Django - Using - pip install django  
@@ -13,6 +15,7 @@ Installation of packages/libraries:
 • Imutils - Using - pip install imutils  
 • Sklearn - Using - pip install sklearn  
 After installations open the command prompt and runserver using  
->> cd complete web dev\human_skintone  
->> python manage.py runserver  
+  &nbsp;cd complete web dev\human_skintone  
+  &nbsp;python manage.py runserver  
+  
 And then copy the index.html path (absolute_path) and run it in chrome or any other
