@@ -14,6 +14,7 @@ Installation of packages/libraries:
 • Matplotlib - Using - pip install matplotlib  
 • Imutils - Using - pip install imutils  
 • Sklearn - Using - pip install sklearn  
+  
 After installations open the command prompt and runserver using  
   &nbsp;cd complete web dev\human_skintone  
   &nbsp;python manage.py runserver  
