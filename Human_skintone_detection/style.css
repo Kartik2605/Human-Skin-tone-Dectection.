@@ -1,0 +1,140 @@
+
+body{
+    background-color: #3F4537;
+    color: black;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.nav-style{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.home-section{
+    padding: 150px 0px 100px;
+}
+
+.home-section h1{
+    font-size: 55px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 0;
+}
+.home-section p{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 28px;
+}
+/* .home-section .home-img img{
+    position: relative;
+} */
+.home-section .home-img img{
+    max-width: 400px;
+    width: 100%;
+    left: 150px;
+    top: -50px;
+}
+
+.div-img {
+    width: auto;
+    height: auto;
+    background-color: #3F4537;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate; 
+  }
+  
+  @keyframes example {
+    0%   {background-color:#3F4537; left:0px; top:0px;}
+    25%  {background-color:#3F4537; left:200px; top:0px;}
+    50%  {background-color:#3F4537; left:200px; top:200px;}
+    75%  {background-color:#3F4537; left:0px; top:200px;}
+    100% {background-color:#3F4537; left:0px; top:0px;}
+  }
+.mybtn2{
+    background-color: #c0e096;
+    color: #3F4537;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 12px 6px; 
+    margin-bottom: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.about-section{
+    padding: 80px 0px 80px;
+    background-color: #c0e096;
+}
+.about-section h1{
+    font-size: 55px;
+    color: #3F4537;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 0;
+}
+.about-section p{
+    color: #3F4537;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 28px;
+}
+
+
+.about-section .about-img img{
+    max-width: 400px;
+    width: 100%;
+    left: 150px;
+    top: -50px;
+}
+
+.mybtn1{
+    background-color: #3F4537;
+    color: #c0e096;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+    padding: 12px 36px;
+    
+    border: none;
+    cursor: pointer;
+}
+
+h1,p{
+    color: #FFFFFF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 200;
+    justify-content: center;
+}
+p.text{
+    font-size: 16px;
+}
+
+
+/* .image{
+    border: 20px;
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+} */
